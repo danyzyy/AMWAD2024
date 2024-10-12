@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and background color for the body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Section */
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header .tagline {
+  font-size: 1.2em;
+}
+
+/* Bio Section */
+.bio {
+  margin: 40px 0;
+}
+
+.bio h2 {
+  font-size: 2em;
+  color: #6200ea;
+}
+
+.bio p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+/* Hobbies Section */
+.hobbies {
+  margin: 40px 0;
+}
+
+.hobbies h2 {
+  font-size: 2em;
+  color: #6200ea;
+}
+
+.hobbies-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobby {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.hobby-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Interesting Facts Section */
+.interesting-facts {
+  margin: 40px 0;
+}
+
+.interesting-facts h2 {
+  font-size: 2em;
+  color: #6200ea;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #6200ea;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
