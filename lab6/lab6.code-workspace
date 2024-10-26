@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "lab6",
+			"path": "."
+		},
+		{
+			"name": "track",
+			"path": "../track"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "lab6"
+	}
+}
